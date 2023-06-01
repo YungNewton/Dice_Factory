@@ -9,6 +9,9 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .row .column{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #F1F6F9;
     text-align: center !important;
     box-sizing: border-box;
   }
@@ -26,5 +29,8 @@ body{
 table{
     text-align: center;
     width: 103%;
+}
+.second{
+    margin-top: 10vh;
 }
   
