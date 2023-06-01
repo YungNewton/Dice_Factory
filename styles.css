@@ -8,3 +8,23 @@ body{
     color: #F1F6F9;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.row .column{
+    text-align: center !important;
+    box-sizing: border-box;
+  }
+.column {
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+table{
+    text-align: center;
+    width: 103%;
+}
+  
