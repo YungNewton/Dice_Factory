@@ -1,0 +1,10 @@
+body > div{
+    text-align: center;
+}
+body{
+    background-color: #394867;
+}
+.heading{
+    color: #F1F6F9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
