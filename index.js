@@ -4,7 +4,7 @@ function diceWinner(){
     if (diceOne > diceTwo){
         document.querySelector("body > div  p").innerHTML = "<img src = 'https://cdn-icons-png.flaticon.com/512/4481/4481086.png' height = '70px'/> Hurray Player One Wins.";
     }else if(diceTwo > diceOne){
-        document.querySelector("body > div  p").innerHTML = "<img src = 'https://cdn-icons-png.flaticon.com/512/4481/4481086.png' height = '70px'/> Hurray Player Two Wins.";
+        document.querySelector("body > div  p").innerHTML = "Hurray Player Two Wins. <img src = 'https://cdn-icons-png.flaticon.com/512/4481/4481086.png' height = '70px'/> ";
     }else{
         document.querySelector("body > div  p").textContent = "Draw";
     }
